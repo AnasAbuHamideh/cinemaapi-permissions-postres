@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "Cinemaapi-permissions-postgres"
+version = "0.1.0"
+description = ""
+authors = ["AnasAbuHamideh <anas.abuhamida@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+djangorestframework = "^3.13.1"
+Markdown = "^3.3.7"
+django-filter = "^21.1"
+psycopg2-binary = "^2.9.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
